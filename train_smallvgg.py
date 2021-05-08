@@ -1,7 +1,7 @@
 import matplotlib
 matplotlib.use('Agg')
 
-from Helper.smallvggnet import SmallVggNet
+from Helper.CNN.Networks.smallvggnet import SmallVggNet
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.models import save_model
